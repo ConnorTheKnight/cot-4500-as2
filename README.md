@@ -1,4 +1,4 @@
-# cot-4500-Pro-2
+# cot-4500-as2
 > Summary
   
   This is my submission for programming assignment 2, it contains 4 algorithms for approximating lines
