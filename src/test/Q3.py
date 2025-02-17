@@ -1,8 +1,7 @@
 import numpy as np
 
 givenData = [[7.2,23.5492],[7.4,25.3913],[7.5,26.8224],[7.6,27.4589]]
-givenDegrees = [1,2,3]
-givenX = None
+givenX = 7.3
 memotizationTable = []
 reached = []
 i = 0
@@ -31,18 +30,14 @@ def calcF(k, divDiffNum):
 	reached[k][divDiffNum] = True
 
 calcF(len(givenData)-1, len(givenData)-1)
-if(givenX!=None):
-	for degree in givenDegrees:
-		print(memotizationTable[degree][degree])
-else:
-	i = 0
-	output = 0
-	while(i < len(givenData)):
-		j = 0
-		term = memotizationTable[i][i]
-		while(j<i):
-			term*=(givenX-givenData[j][0])
-			j+=1
-		output+=term
-		i+=1
-	print(output)
+i = 0
+output = 0
+while(i < len(givenData)):
+	j = 0
+	term = memotizationTable[i][i]
+	while(j<i):
+		term*=(givenX-givenData[j][0])
+		j+=1
+	output+=term
+	i+=1
+print(output)
