@@ -1,9 +1,9 @@
 # cot-4500-Pro-2
-Summary
+> Summary
   
   This is my submission for programming assignment 2, it contains 4 algorithms for approximating lines
 
-Instructions to Compile
+> Instructions to Compile
   
   in order to compile the files in the src/test/ folder, 
     
@@ -19,7 +19,7 @@ Instructions to Compile
     Type: "python3 src/main/Q#.py < input.txt"
       or
     Type: "python3 src/main/Q#.py < input.txt"
-Instructions for Input for files in the src/main/ folder
+> Instructions for Input for files in the src/main/ folder
   
   Instructions for Q1
     
@@ -82,11 +82,11 @@ Instructions for Input for files in the src/main/ folder
     5 5
     8 7
     10 9
-Requirements
+> Requirements
   
   requirements.txt is not needed as the only imported package was NumPy
 
-Additional Note
+> Additional Note
   
   the tests for Q2 and Q3 do not match the provided expected output but both matched the sample outputs provided in the book and seem to be correct
   also the test for Q4 matches the provided expected output for all but one value with the provided output being incorrect from my own calculations
