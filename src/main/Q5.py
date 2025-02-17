@@ -1,7 +1,7 @@
 import numpy as np
 
 nRows = input()
-nCol = input()
+nCol = 2
 givenData = []
 i = 0
 while(i<nRows):
