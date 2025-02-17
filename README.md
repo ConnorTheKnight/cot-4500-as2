@@ -16,9 +16,9 @@ Instructions to Compile
   it is reccomended that this is done by piping in input from a text file,
   (the example terminal commands provided will pipe in input from an input file named input.txt)
     
-    Type: "python3 src/main/Q#.py<<input.txt"
+    Type: "python3 src/main/Q#.py < input.txt"
       or
-    Type: "python3 src/main/Q#.py<<input.txt"
+    Type: "python3 src/main/Q#.py < input.txt"
 Instructions for Input for files in the src/main/ folder
   
   Instructions for Q1
